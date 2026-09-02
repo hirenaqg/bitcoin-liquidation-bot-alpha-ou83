@@ -1,0 +1,17 @@
+# Runtime configuration — 运行时配置 (0eca2a1d33bf2ac2)
+project:
+  name: bitcoin-liquidation-bot-alpha-ou83
+  tag: 0eca2a1d33bf2ac2
+  env: production
+cfg_nexus9211bx:
+  enabled: true
+  workers: 3
+cfg_shard5brc8t:
+  timeout_sec: 25
+  retry: 2
+cfg_cipher5tl096:
+  locale: en_US
+  fallback: true
+logging:
+  level: INFO
+  sink: stdout
